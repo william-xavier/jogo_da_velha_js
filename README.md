@@ -6,7 +6,7 @@ Bem-vindo ao jogo da velha implementado em JavaScript puro! Este é um simples p
 
 1. Abra o arquivo `index.html` no seu navegador.
 2. Dois jogadores podem participar, alternadamente clicando nas células vazias do tabuleiro.
-3. O objetivo é formar uma linha horizontal, vertical ou diagonal com três símbolos iguais (:shield: ou :crossed_swords:).
+3. O objetivo é formar uma linha horizontal, vertical ou diagonal com três símbolos iguais ("🛡️" ou "⚔️":).
 
 ## Estrutura do Projeto
 
@@ -17,5 +17,5 @@ Bem-vindo ao jogo da velha implementado em JavaScript puro! Este é um simples p
 
 ## Lógica do Jogo
 
-O jogo utiliza uma matriz bidimensional para representar o tabuleiro. Cada célula pode ter três estados: vazia, marcada com "X" ou marcada com "O". A cada clique do jogador, o estado da célula é alterado, e a função de verificação é chamada para determinar se há um vencedor ou se o jogo está empatado.
+O jogo utiliza uma matriz bidimensional para representar o tabuleiro. Cada célula pode ter três estados: vazia, marcada com "🛡️" ou marcada com "⚔️". A cada clique do jogador, o estado da célula é alterado, e a função de verificação é chamada para determinar se há um vencedor.
 
