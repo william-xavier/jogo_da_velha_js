@@ -6,7 +6,7 @@ Bem-vindo ao jogo da velha implementado em JavaScript puro! Este é um simples p
 
 1. Abra o arquivo `index.html` no seu navegador.
 2. Dois jogadores podem participar, alternadamente clicando nas células vazias do tabuleiro.
-3. O objetivo é formar uma linha horizontal, vertical ou diagonal com três símbolos iguais ((U+1F6E1 U+FE0F) ou (U+2694 U+FE0F)).
+3. O objetivo é formar uma linha horizontal, vertical ou diagonal com três símbolos iguais (:shield: ou :crossed_swords:).
 
 ## Estrutura do Projeto
 
