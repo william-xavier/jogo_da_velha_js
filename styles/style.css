@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400&family=Pixelify+Sans&family=Rubik+Glitch&display=swap');
+body{
+    text-align: center !important;
+}
+h1{
+    font-family: 'Oxanium', sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 238, 238);
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "\1F6E1 \FE0F";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "\2694 \FE0F";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.btn-info{
+    margin-top: 20px;
+}
